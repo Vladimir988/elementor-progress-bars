@@ -1,0 +1,87 @@
+.svg-circle-progress {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.tt-circle-progress-bar-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.tt-circle-progress-bar {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tt-circle-progress-bar .tt-position-in-circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.tt-circle-progress-bar .tt-position-in-circle .tt-circle-counter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.tt-circle-counter .tt-circle-val {
+	color: #6ec1e4;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+.circle-progress-bg,
+.circle-progress-value {
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0.28, 0.77, 0.39, 0.95);
+    -o-transition-timing-function: cubic-bezier(0.28, 0.77, 0.39, 0.95);
+    transition-timing-function: cubic-bezier(0.28, 0.77, 0.39, 0.95);
+    fill: none;
+    stroke-linecap: butt;
+}
+.tt-circle-content .circle-content-title {
+	color: #54595f;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
